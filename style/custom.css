@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background: linear-gradient(136deg, #eacda3, #c8985b 101%);
+    border-radius: 30px;
+    box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#profile{
+    height: 90px;
+    width: 90px;
+    border: oldlace;
+    border-style: solid;
+    border-radius: 80px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#social{
+    background: oldlace;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#top{
+    margin: 60px;
+}
+
+#social{
+    padding: 30px;
+}
+
+#contact-details {
+    margin-top: 40px;
+}
+
+a{
+color: white;
+}
+
+a:visited{
+color: white;
+}
+
+a:hover{
+color: oldlace;
+}
